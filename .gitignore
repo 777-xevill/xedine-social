@@ -16,3 +16,7 @@ Thumbs.db
 
 # YouTube transcripts: third-party text, kept local only (this repo is public)
 docs/transcripts/
+
+# local account notes, never commit
+accounts.local.txt
+*.local.txt
