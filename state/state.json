@@ -1,0 +1,178 @@
+{
+  "last_tick": "2026-11-20T09:09:07+00:00",
+  "platform_last": {
+    "facebook": "2026-11-20T09:09:07+00:00",
+    "instagram": "2026-11-20T09:09:07+00:00",
+    "tiktok": "2026-11-20T09:09:07+00:00",
+    "youtube": "2026-11-20T09:09:07+00:00"
+  },
+  "posts": {
+    "2026-11-20-1200-v01-money-leak": {
+      "runs": [
+        {
+          "created": "2026-11-20T09:09:07+00:00",
+          "done": true,
+          "due": "2026-11-20T06:00:00+00:00",
+          "kind": "scheduled",
+          "platforms": {
+            "facebook": {
+              "at": "2026-11-20T09:09:07+00:00",
+              "id": "1600678968767176",
+              "status": "published",
+              "url": "https://www.facebook.com/reel/1600678968767176"
+            },
+            "instagram": {
+              "at": "2026-11-20T09:09:07+00:00",
+              "id": "18131806958294435",
+              "status": "published",
+              "url": "https://www.instagram.com/reel/Df9TMZCFbii/"
+            },
+            "tiktok": {
+              "at": "2026-11-20T09:09:07+00:00",
+              "id": "6b000e654c1afd05de090f11",
+              "status": "published",
+              "url": "https://publish.buffer.com/"
+            },
+            "youtube": {
+              "at": "2026-11-20T09:09:07+00:00",
+              "id": "6b000e70ca85ebefb00ecf77",
+              "status": "published",
+              "url": "https://publish.buffer.com/"
+            }
+          }
+        }
+      ]
+    },
+    "2026-11-20-2100-v02-who-gave-discount": {
+      "runs": [
+        {
+          "created": "2026-11-20T09:09:07+00:00",
+          "due": "2026-11-20T15:00:00+00:00",
+          "kind": "scheduled",
+          "platforms": {}
+        }
+      ]
+    },
+    "2026-11-21-1200-v03-missing-1kg": {
+      "runs": [
+        {
+          "created": "2026-11-20T09:09:07+00:00",
+          "due": "2026-11-21T06:00:00+00:00",
+          "kind": "scheduled",
+          "platforms": {}
+        }
+      ]
+    },
+    "2026-11-21-2100-v04-bazar-guess": {
+      "runs": [
+        {
+          "created": "2026-11-20T09:09:07+00:00",
+          "due": "2026-11-21T15:00:00+00:00",
+          "kind": "scheduled",
+          "platforms": {}
+        }
+      ]
+    },
+    "2026-11-22-1200-v05-extra-40g": {
+      "runs": [
+        {
+          "created": "2026-11-20T09:09:07+00:00",
+          "due": "2026-11-22T06:00:00+00:00",
+          "kind": "scheduled",
+          "platforms": {}
+        }
+      ]
+    },
+    "2026-11-22-2100-v06-offline-till": {
+      "runs": [
+        {
+          "created": "2026-11-20T09:09:07+00:00",
+          "due": "2026-11-22T15:00:00+00:00",
+          "kind": "scheduled",
+          "platforms": {}
+        }
+      ]
+    },
+    "2026-11-23-1200-v07-bestseller-profit": {
+      "runs": [
+        {
+          "created": "2026-11-20T09:09:07+00:00",
+          "due": "2026-11-23T06:00:00+00:00",
+          "kind": "scheduled",
+          "platforms": {}
+        }
+      ]
+    },
+    "2026-11-23-2100-v08-rain-tomorrow": {
+      "runs": [
+        {
+          "created": "2026-11-20T09:09:07+00:00",
+          "due": "2026-11-23T15:00:00+00:00",
+          "kind": "scheduled",
+          "platforms": {}
+        }
+      ]
+    },
+    "2026-11-24-1200-v09-table-qr-menu": {
+      "runs": [
+        {
+          "created": "2026-11-20T09:09:07+00:00",
+          "due": "2026-11-24T06:00:00+00:00",
+          "kind": "scheduled",
+          "platforms": {}
+        }
+      ]
+    },
+    "2026-11-24-2100-v10-silent-complaint": {
+      "runs": [
+        {
+          "created": "2026-11-20T09:09:07+00:00",
+          "due": "2026-11-24T15:00:00+00:00",
+          "kind": "scheduled",
+          "platforms": {}
+        }
+      ]
+    },
+    "2026-11-25-1200-v11-member-card": {
+      "runs": [
+        {
+          "created": "2026-11-20T09:09:07+00:00",
+          "due": "2026-11-25T06:00:00+00:00",
+          "kind": "scheduled",
+          "platforms": {}
+        }
+      ]
+    },
+    "2026-11-25-2100-v12-ajke-labh-koto": {
+      "runs": [
+        {
+          "created": "2026-11-20T09:09:07+00:00",
+          "due": "2026-11-25T15:00:00+00:00",
+          "kind": "scheduled",
+          "platforms": {}
+        }
+      ]
+    },
+    "2026-11-26-1200-v13-five-notebooks": {
+      "runs": [
+        {
+          "created": "2026-11-20T09:09:07+00:00",
+          "due": "2026-11-26T06:00:00+00:00",
+          "kind": "scheduled",
+          "platforms": {}
+        }
+      ]
+    },
+    "2026-11-26-2100-v14-see-it-first": {
+      "runs": [
+        {
+          "created": "2026-11-20T09:09:07+00:00",
+          "due": "2026-11-26T15:00:00+00:00",
+          "kind": "scheduled",
+          "platforms": {}
+        }
+      ]
+    }
+  },
+  "version": 1
+}
