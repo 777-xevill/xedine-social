@@ -1,0 +1,76 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  Xedine Social Autopilot: main settings (copy of the Xegency bot, its own accounts and queue)
+#  Secrets (tokens, passwords) do NOT go here. They live in GitHub Secrets.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Public address of this repo's GitHub Pages site. Media files are served from here so
+# Instagram and Buffer can fetch them.
+site_url: https://777-xevill.github.io/xedine-social
+
+timezone: Asia/Dhaka
+
+# Posts WITHOUT a `publish_at` date get the next free slot. The 14 launch videos all have
+# their own `publish_at` (2 a day, 12:00 and 21:00, 21-27 Nov 2026).
+schedule:
+  slots:
+    - days: [mon, tue, wed, thu, fri, sat, sun]
+      times: ["12:00", "21:00"]   # Bangladeshi restaurant owners: lunch break and late evening
+
+# Xedine's four accounts.
+default_platforms: [facebook, instagram, tiktok, youtube]
+
+# Re-posting old videos when the queue is empty is OFF: the founder has not asked for it.
+evergreen:
+  enabled: false
+  idle_hours: 48
+  min_days_between_reposts: 45
+
+posting:
+  min_minutes_between_posts: 60   # per platform, stops bursts after downtime
+  max_attempts: 3                 # retries before a platform is marked failed
+  low_queue_warning: 4            # weekly health report warns below this many queued posts
+
+platforms:
+  facebook:
+    enabled: true
+    max_hashtags: 3
+  instagram:
+    enabled: true
+    reels_on_grid: true    # Reels also go to the main grid
+    max_hashtags: 5
+  threads:
+    enabled: false
+    max_hashtags: 1
+  youtube:
+    enabled: true
+    via: buffer            # Google's free API can only upload PRIVATE videos until its audit passes
+    privacy: public
+    category_id: "28"      # Science & Technology
+    max_hashtags: 5
+  tiktok:
+    enabled: true
+    via: buffer            # TikTok's own API only allows private posts for personal apps
+    max_hashtags: 5
+  linkedin:
+    enabled: false
+    max_hashtags: 5
+  x:
+    enabled: false
+    via: buffer
+    max_hashtags: 2
+  pinterest:
+    enabled: false
+    via: direct
+    board_id: ""
+    sandbox: false
+    max_hashtags: 0
+  reddit:
+    enabled: false
+    subreddit: ""
+    max_hashtags: 0
+  snapchat:
+    enabled: false
+    max_hashtags: 0
+
+meta:
+  graph_version: v24.0
