@@ -128,7 +128,8 @@ class Reddit(Adapter):
 BUFFER_SERVICE = {"x": "twitter", "tiktok": "tiktok", "youtube": "youtube", "pinterest": "pinterest",
                   "linkedin": "linkedin", "threads": "threads"}
 BUFFER_SUPPORTS = {
-    "x": {"text", "image", "images", "video"}, "tiktok": {"video"}, "youtube": {"video"},
+    # TikTok photo posts: Buffer's API accepts image assets for TikTok (draft test 2026-11-20)
+    "x": {"text", "image", "images", "video"}, "tiktok": {"video", "image", "images"}, "youtube": {"video"},
     "pinterest": {"image", "video"}, "linkedin": {"text", "image", "images", "video"},
     "threads": {"text", "image", "images", "video"},
 }
