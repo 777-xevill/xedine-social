@@ -1,9 +1,9 @@
 {
-  "last_tick": "2026-11-22T22:46:17+00:00",
+  "last_tick": "2026-11-23T04:27:46+00:00",
   "platform_last": {
-    "facebook": "2026-11-22T17:03:35+00:00",
-    "instagram": "2026-11-22T17:03:35+00:00",
-    "tiktok": "2026-11-22T17:03:35+00:00",
+    "facebook": "2026-11-23T04:27:46+00:00",
+    "instagram": "2026-11-23T04:27:46+00:00",
+    "tiktok": "2026-11-23T04:27:46+00:00",
     "youtube": "2026-11-22T17:03:35+00:00"
   },
   "posts": {
@@ -347,9 +347,29 @@
       "runs": [
         {
           "created": "2026-11-20T10:55:54+00:00",
+          "done": true,
           "due": "2026-11-23T03:00:00+00:00",
           "kind": "scheduled",
-          "platforms": {}
+          "platforms": {
+            "facebook": {
+              "at": "2026-11-23T04:27:46+00:00",
+              "id": "1492972560555202_122100321471557961",
+              "status": "published",
+              "url": "https://www.facebook.com/1492972560555202_122100321471557961"
+            },
+            "instagram": {
+              "at": "2026-11-23T04:27:46+00:00",
+              "id": "17876711049639515",
+              "status": "published",
+              "url": "https://www.instagram.com/p/DgEhXtDlwzu/"
+            },
+            "tiktok": {
+              "at": "2026-11-23T04:27:46+00:00",
+              "id": "6b03c0cfd864a011051e646d",
+              "status": "published",
+              "url": "https://publish.buffer.com/"
+            }
+          }
         }
       ]
     },
