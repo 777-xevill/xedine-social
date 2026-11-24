@@ -1,10 +1,10 @@
 {
-  "last_tick": "2026-11-24T14:59:48+00:00",
+  "last_tick": "2026-11-24T15:04:49+00:00",
   "platform_last": {
-    "facebook": "2026-11-24T11:22:58+00:00",
-    "instagram": "2026-11-24T11:22:58+00:00",
-    "tiktok": "2026-11-24T11:22:58+00:00",
-    "youtube": "2026-11-24T10:21:36+00:00"
+    "facebook": "2026-11-24T15:04:49+00:00",
+    "instagram": "2026-11-24T15:04:49+00:00",
+    "tiktok": "2026-11-24T15:04:49+00:00",
+    "youtube": "2026-11-24T15:04:49+00:00"
   },
   "posts": {
     "2026-11-20-1200-v01-money-leak": {
@@ -575,9 +575,35 @@
       "runs": [
         {
           "created": "2026-11-20T09:09:07+00:00",
+          "done": true,
           "due": "2026-11-24T15:00:00+00:00",
           "kind": "scheduled",
-          "platforms": {}
+          "platforms": {
+            "facebook": {
+              "at": "2026-11-24T15:04:49+00:00",
+              "id": "4459424167654270",
+              "status": "published",
+              "url": "https://www.facebook.com/reel/4459424167654270"
+            },
+            "instagram": {
+              "at": "2026-11-24T15:04:49+00:00",
+              "id": "18116973274849157",
+              "status": "published",
+              "url": "https://www.instagram.com/reel/DgIPF5EEqiN/"
+            },
+            "tiktok": {
+              "at": "2026-11-24T15:04:49+00:00",
+              "id": "6b05a7c34d531e79e19eb552",
+              "status": "published",
+              "url": "https://publish.buffer.com/"
+            },
+            "youtube": {
+              "at": "2026-11-24T15:04:49+00:00",
+              "id": "6b05a7ce4d531e79e19eba81",
+              "status": "published",
+              "url": "https://publish.buffer.com/"
+            }
+          }
         }
       ]
     },
